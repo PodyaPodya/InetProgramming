@@ -1,0 +1,94 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 0 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            padding: 30px 0;
+        }
+        
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            min-height: 80vh;
+            padding: 20px 0;
+        }
+        
+        .content {
+            flex: 1;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #555;
+            max-width: 600px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+        }
+        
+        .btn-primary {
+            background-color: #233fe2;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #5651c9;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid #ffc3c4;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #f0f0ff;
+        }
+        
+        .illustration {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .illustration img {
+            max-width: 100%;
+            height: auto;
+        }
